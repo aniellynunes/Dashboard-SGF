@@ -1,2 +1,23 @@
-# Dashboard-SGF
-Neste repositorio esta presente o desenvolvimento dos projetos indicados em sala de aula.
+[README (1).md](https://github.com/user-attachments/files/32837237/README.1.md)
+# SGF Resíduos
+
+Aplicação web responsiva para **rastreio e descarte de caçambas por transportadora**.
+
+## O que foi feito
+
+Um MVP frontend em um único arquivo HTML (HTML, CSS e JavaScript puro), sem backend nem dependências. Os dados ficam salvos no navegador (`localStorage`).
+
+- **Painel:** indicadores de caçambas ativas, descartadas, em transporte, transporte concluído e total descartado (kg).
+- **Caçambas:** cadastro, busca, filtros e acompanhamento do fluxo **Disponível → Em operação → Em transporte → Descartada**, com histórico de datas.
+- **Descarte:** registro do peso total (kg) e do destino final (reciclagem, reuso, aterro ou coprocessamento).
+- **Transportadoras:** resumo por empresa e cadastro de novas transportadoras.
+
+## Como executar
+
+Abra o `index.html` em qualquer navegador moderno. Não há instalação nem build.
+
+## Limitações
+
+Por ser um MVP, os dados não são compartilhados entre usuários, não há login e ainda não é possível editar ou excluir registros.
+
+Mais detalhes em [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md).
