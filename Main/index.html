@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="style.css">
+
+<title>SGF Resíduos – Rastreio e Descarte</title>
+<style>
+
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="top"><h1>♻️ SGF <span>Resíduos</span></h1><button class="btn" id="add">+ Nova caçamba</button></div>
+  <nav id="tabs"></nav>
+</div></header>
+<main class="wrap" id="app"></main>
+
+<dialog id="dNew"><h2>Nova caçamba</h2>
+  <label>Transportadora</label><select id="nCar"></select>
+  <label>Obra / cliente</label><input id="nObra" placeholder="Ex.: Obra Residencial Vila Verde">
+  <label>Tipo de resíduo</label><select id="nTipo"></select>
+  <div class="acts" style="margin-top:16px"><button class="btn" id="nOk">Cadastrar</button><button class="btn sec" data-close>Cancelar</button></div>
+</dialog>
+
+<dialog id="dCar"><h2>Nova transportadora</h2>
+  <label>Nome da transportadora</label><input id="cNome" placeholder="Ex.: Transportes Bahia Ambiental" maxlength="60">
+  <div class="meta" id="cErr" style="color:var(--er)"></div>
+  <div class="acts" style="margin-top:16px"><button class="btn" id="cOk">Cadastrar</button><button class="btn sec" data-close>Cancelar</button></div>
+</dialog>
+
+<dialog id="dDes"><h2>Registrar descarte</h2><p class="meta" id="dInfo"></p>
+  <label>Peso total (kg)</label><input id="dPeso" type="number" min="1">
+  <label>Destino final</label><select id="dDest"></select>
+  <div class="acts" style="margin-top:16px"><button class="btn" id="dOk">Confirmar</button><button class="btn sec" data-close>Cancelar</button></div>
+</dialog>
+
+<script src="index.js"></script>
+
+</body>
+</html>
