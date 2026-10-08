@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/32837237/README.1.md)
 # SGF Resíduos
 
 Aplicação web responsiva para **rastreio e descarte de caçambas por transportadora**.
@@ -18,4 +17,4 @@ Por ser um MVP, os dados não são compartilhados entre usuários, não há logi
 
 ## Acesse
 
-Em [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md).
+Link de acesso: https://aniellynunes.github.io/Dashboard-SGF/.
