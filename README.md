@@ -4,7 +4,7 @@ Aplicação web responsiva para **rastreio e descarte de caçambas por transport
 
 ## O que foi feito
 
-Um MVP frontend em um separados nos seguintes arquivos HTML, CSS e JavaScript puro, sem backend nem dependências. Os dados ficam salvos no navegador (`localStorage`).
+Um MVP frontend em um separados nos seguintes arquivos HTML, CSS e JavaScript, com backend pronto, SQLite e importação XLSX. Os dados ficam salvos no navegador no Banco de Dados.
 
 - **Painel:** indicadores de caçambas ativas, descartadas, em transporte, transporte concluído e total descartado (kg).
 - **Caçambas:** cadastro, busca, filtros e acompanhamento do fluxo **Disponível → Em operação → Em transporte → Descartada**, com histórico de datas.
